@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+p {
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+}
+
+h2 {
+  font-size: 2rem;
+  margin: 2rem;
+}
+
+#url-input {
+  width: 20%;
+  text-align: left;
+}
+
+#main-pic {
+  width: 10%;
+  min-width: 50px;
+  margin-bottom: 5rem;
+}
+
+#shorten-url {
+  display: inline;
+}
+
+#copy {
+  width: 20px;
+  cursor: pointer;
+  margin-left: 0.5rem;
+}
+
+.btn {
+  text-decoration: none;
+  border: 1rem;
+  padding: 0.3rem 1rem;
+  color: white;
+  background-color: rgb(51, 105, 224);
+  cursor: pointer;
+}
