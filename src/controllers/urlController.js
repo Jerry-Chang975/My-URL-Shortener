@@ -29,12 +29,8 @@ function updateUrl(code, url) {
 }
 
 async function checkUrlIsOk(url) {
-  try {
-    const response = await fetch(url);
-    return response.ok;
-  } catch (err) {
-    return false;
-  }
+  const regex = new RegExp('^(https|http)://*.');
+  return regex.test(url);
 }
 // controllers
 const getIndex = (req, res) => {
